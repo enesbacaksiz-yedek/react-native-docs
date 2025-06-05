@@ -87,8 +87,6 @@ pacjage.json | - Projenin bağımlılıkları ve scriptlerini tanımlar
 
 - Proje sıfırlamak için `npm run reset-project`  komutu kullanabiliriz.
 
-## STYLE
-
 - Çoğu uygulama aşağıdaki basic componentslerden bir veya daha fazlasını projelerinde kullanır
 
 ### **Basic Components**
@@ -165,3 +163,6 @@ export default function App() {
 | `renderItem={({ item }) => <Text>{item}</Text>}` | Her bir veri öğesini `Text` ile gösterir. |
 | `keyExtractor={(item, index) => index.toString()}` | Her öğeye benzersiz anahtar verir. (Zorunlu) |
 | `getItemCount` ve `getItem` | Veriye erişmek için gerekli fonksiyonlar |
+
+
+##STYLE
